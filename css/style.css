@@ -510,7 +510,7 @@ span {
     padding: 8px;
     width: 10%;
     font-size: 15px;
-    color: #333;
+    color: #fff;
     background-color: #41b548;
     border-color: #41b548;
     position: absolute;
@@ -703,4 +703,13 @@ circle:nth-child(2) {
 
 .texto-card {
     height: 250px;
+}
+.container-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.container-div-conta{
+    min-height: 100vh;
 }
