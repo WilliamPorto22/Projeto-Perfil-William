@@ -13,6 +13,43 @@ hr {
     border-top: 1px solid #f3eaea;
 }
 
+label {
+    width: 55px;
+}
+
+input {
+    margin: 6px 13px;
+    width: calc(80% - 20px);
+    height: 50px;
+    border: none;
+    background-color: hwb(205deg 74% 24% / 76%);
+    border-radius: 4px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 10px 0px 10px;
+}
+
+fieldset {
+    border: none;
+
+}
+
+fieldset:nth-child(1) {
+    display: flex;
+}
+
+fieldset:nth-child(2) {}
+
+fieldset:nth-child(3) {}
+
+fieldset:nth-child(4) {}
+
+fieldset:nth-child(5) {
+    margin-top: 24px;
+    padding: 0 10px;
+
+}
 
 nav {
     background-color: #031f32;
@@ -76,14 +113,17 @@ h3 {
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 10px;
+    margin-top: 0px;
 
 }
-p{
+
+p {
     display: flex;
     justify-content: center;
     font-size: 20px;
     color: #f3eaea;
 }
+
 h4 {
 
     margin-top: 46%;
@@ -119,6 +159,7 @@ h5 {
     z-index: 999;
     justify-content: center;
 }
+
 .modal-container-3 {
     width: 100vh;
     position: fixed;
@@ -127,6 +168,7 @@ h5 {
     z-index: 999;
     justify-content: center;
 }
+
 .modal-container-4 {
     width: 100vh;
     position: fixed;
@@ -147,6 +189,7 @@ h5 {
     justify-content: center;
     margin-left: 65%;
 }
+
 .modal2 {
     display: flex;
     flex-direction: column;
@@ -158,6 +201,7 @@ h5 {
     height: 493px;
     margin-left: 68%;
 }
+
 .modal3 {
     display: flex;
     flex-direction: column;
@@ -171,6 +215,7 @@ h5 {
     height: 493px;
 
 }
+
 .modal4 {
     display: flex;
     flex-direction: column;
@@ -192,7 +237,7 @@ h5 {
     animation: modal .4s;
 }
 
-@keyframes modal{
+@keyframes modal {
     from {
         opacity: 0;
         transform: translate3d(0, -60px, 0);
@@ -203,7 +248,8 @@ h5 {
         transform: translate3d(0, 0, 0);
     }
 }
-@keyframes modal2{
+
+@keyframes modal2 {
     from {
         opacity: 0;
         transform: translate3d(0, -60px, 0);
@@ -214,7 +260,8 @@ h5 {
         transform: translate3d(0, 0, 0);
     }
 }
-@keyframes modal3{
+
+@keyframes modal3 {
     from {
         opacity: 0;
         transform: translate3d(0, -60px, 0);
@@ -225,7 +272,8 @@ h5 {
         transform: translate3d(0, 0, 0);
     }
 }
-@keyframes modal4{
+
+@keyframes modal4 {
     from {
         opacity: 0;
         transform: translate3d(0, -60px, 0);
@@ -397,6 +445,7 @@ span {
     cursor: pointer;
     border-radius: 4px;
 }
+
 .bt-experiencia-3 {
     padding: 9px;
     width: 10%;
@@ -421,6 +470,7 @@ span {
     cursor: pointer;
     border-radius: 4px;
 }
+
 .bt-experiencia-4 {
     padding: 9px;
     width: 10%;
@@ -676,8 +726,8 @@ circle:nth-child(2) {
 .end {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    color: #f3eaea;
-    background-color: #031f32;
+    color: #031f32;
+    background-color: #9ea9b1;
     width: 100%;
     height: 10%;
     padding: 10px 8px;
@@ -704,12 +754,32 @@ circle:nth-child(2) {
 .texto-card {
     height: 250px;
 }
-.container-contato{
+
+.container-contato {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 2px;
 }
-.container-div-conta{
-    min-height: 100vh;
+
+.container-contato2 {
+    display: flex;
+    width: 97px;
+    align-items: center;
+}
+
+.container-div-conta {
+    color: #fff;
+    background-color: #7d93a1;
+    border-radius: 10px;
+    width: 120vh;
+    margin: 40px;
+
+}
+
+.section-mensagem {
+    display: flex;
+    background-color: #031f32;
+    flex-direction: column;
+    align-items: center;
 }
