@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <section>
+    <section class="section-nav">
         <nav>
             <div class="container">
                 <div class="nome-ini-w">
@@ -27,7 +27,7 @@
 
                         <a href="#formacao">Formação</a>
 
-                        <a href="#contact">Contato</a>
+                        <a href="#contato">Contato</a>
                     </ul>
                 </div>
             </div>
@@ -49,7 +49,7 @@
         </div>
     </section>
 
-    <section id="sobre" class="section-sobre">
+    <section id="sobre">
         <h2>Sobre</h2>
         <div class="title-border"></div>
         <div class="section">
@@ -260,12 +260,13 @@
         </div>
     </section>
 
-    <section class="section-mensagem">
+    <section id= "contato" class="section-mensagem">
             <div>
                 <h3>Contato</h3>
                 <div class="title-border"></div>
             </div>
         <form class="container-div-conta" action="#" method="post">
+
             <fieldset>
                 <div class="container-contato">
                     <label for="name"> Nome :</label>
@@ -299,15 +300,13 @@
             </fieldset>
 
             <fieldset>
-                <div class="container-contato" id="check">
+                <div id="check">
                     <input type="checkbox" required name="accept" id="accept" autofocus>
                     <label for="accept">Aceitar os termos de uso</label>
                 </div>
-            </fieldset>
-            <button>
-                Enviar
-            </button>
             
+                <button>Enviar</button>
+            </fieldset>    
         </form>
     </section>
 
