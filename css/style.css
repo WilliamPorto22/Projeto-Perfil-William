@@ -324,9 +324,14 @@ span {
 }
 .section {
     display: flex;
-    height: 100vh;
+    height: 86vh;
     width: 88vw;
     align-items: center;
+    margin-top: 16px;
+}
+.margen-top{
+    margin-top: 160px;
+    margin-left: 60px;
 }
 
 .section-skills {
@@ -337,9 +342,9 @@ span {
 
 .section2 {
     color: #224e25;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 22%;
-    line-height: 30px;
+    line-height: 37px;
 }
 
 .title-border {
@@ -373,104 +378,30 @@ span {
     border-radius: 155px;
 }
 
-.bt-experiencia-2 {
-    padding: 9px;
-    width: 10%;
-    font-size: 15px;
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
-    position: absolute;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 5px;
-}
-
-.bt-experiencia-2:hover {
-    padding: 9px;
-    width: 10%;
-    font-size: 15px;
-    color: #fff;
-    background-color: #155186;
-    border-color: #09151f;
-    position: absolute;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.bt-experiencia-3 {
-    padding: 9px;
-    width: 10%;
-    font-size: 15px;
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
-    position: absolute;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 5px;
-}
-
-.bt-experiencia-3:hover {
-    padding: 9px;
-    width: 10%;
-    font-size: 15px;
-    color: #fff;
-    background-color: #155186;
-    border-color: #09151f;
-    position: absolute;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.bt-experiencia-4 {
-    padding: 9px;
-    width: 10%;
-    font-size: 15px;
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
-    position: absolute;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 5px;
-}
-
-.bt-experiencia-4:hover {
-    padding: 9px;
-    width: 10%;
-    font-size: 15px;
-    color: #fff;
-    background-color: #155186;
-    border-color: #09151f;
-    position: absolute;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
 .bt-experiencia {
     padding: 8px;
-    width: 10%;
-    font-size: 15px;
+    width: 16%;
+    height: 7%;
+    font-size: 18px;
     color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
+    background-color: #2f7dc2;
     position: absolute;
     cursor: pointer;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 .bt-experiencia:hover {
     padding: 8px;
-    width: 10%;
-    font-size: 15px;
+    width: 16%;
+    height: 7%;
+    font-size: 18px;
     color: #fff;
-    background-color: #155186;
-    border-color: #09151f;
+    background-color:#256ba8;
+    border-color: #112d44;
     position: absolute;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 .bt-diploma {
@@ -484,7 +415,7 @@ span {
     position: absolute;
     cursor: pointer;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 .bt-diploma:hover {
@@ -497,7 +428,7 @@ span {
     border-color: #09151f;
     position: absolute;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 20px;
 
 }
 
@@ -505,36 +436,38 @@ span {
     margin-top: 1%;
     margin-left: 12%;
     padding: 8px;
-    width: 10%;
-    font-size: 15px;
+    width: 9%;
+    font-size: 17px;
     color: #fff;
-    background-color: #41b548;
-    border-color: #41b548;
+    background-color: #34a73c;
+    border-color: #369c3d;
     position: absolute;
     cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bt-contato:hover {
     margin-top: 1%;
     margin-left: 12%;
     padding: 8px;
-    width: 10%;
-    font-size: 15px;
+    width: 9%;
+    font-size: 17px;
     color: #fff;
-    background-color: #0b4100;
+    background-color: #136103;
     border-color: #333;
     position: absolute;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 18px;
 }
 
 .test-forma {
     color: #224e25;
-    width: 289px;
+    width: 328px;
     margin: 20px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .col {
@@ -596,8 +529,8 @@ span {
 
 .numero-por-90 {
     color: #f7f5f5;
-    left: 11%;
-    top: 260%;
+    left: 10%;
+    top: 248%;
     position: absolute;
     font-size: 40px;
 
@@ -605,8 +538,8 @@ span {
 
 .numero-por-30 {
     color: #f7f5f5;
-    left: 36%;
-    top: 260%;
+    left: 35%;
+    top: 248%;
     position: absolute;
     font-size: 40px;
 
@@ -614,8 +547,8 @@ span {
 
 .numero-por-91 {
     color: #f7f5f5;
-    left: 61%;
-    top: 260%;
+    left: 60%;
+    top: 248%;
     position: absolute;
     font-size: 40px;
 
@@ -623,8 +556,8 @@ span {
 
 .numero-por-31 {
     color: #f7f5f5;
-    left: 86%;
-    top: 260%;
+    left: 85%;
+    top: 248%;
     position: absolute;
     font-size: 40px;
 
@@ -677,6 +610,7 @@ circle:nth-child(2) {
     background-color: #9ea9b1;
     padding: 10px 8px;
     margin-bottom: 0px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
 }
@@ -685,7 +619,8 @@ circle:nth-child(2) {
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 80vh;
+    height: 87vh;
+    align-items: stretch;
 }
 
 .card-for {
@@ -697,7 +632,7 @@ circle:nth-child(2) {
 }
 
 .texto-card {
-    height: 250px;
+    height: 300px;
 }
 
 
@@ -707,8 +642,8 @@ circle:nth-child(2) {
     color: rgb(158 169 177 / 48%);
     background-color: #7d93a1;
     border-radius: 10px;
-    margin: 40px;
-    padding: 30px 5px;
+    margin-top: 40px;
+    padding: 25px 35px;
     width: 100vh;
     height: 68vh;
     box-shadow: 5px 5px 8px;
@@ -718,7 +653,6 @@ circle:nth-child(2) {
 }
 
 .section-mensagem {
-    border-radius: 10px;
     display: flex;
     background-color: #031f32;
     flex-direction: column;
@@ -726,30 +660,61 @@ circle:nth-child(2) {
     height: 100vh;
     width: 100vw;
 }
+.container-contato2{
+    position: relative;
+}
 
+.container-contato2 label {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f3eaea;
+    position: absolute;
+    line-height: 60px;
+    left: 100px;
+    user-select: none;
+}
+.container-contato2 input {
+    margin-left: 80px;
+    height: 140px;
+    width: 458px;
+    background-color: hwb(205deg 74% 24% / 76%);
+    padding: 14px 11px 0px 10px;
+    border: none;
+    border-radius: 4px;
+    color: #2f7dc2;
+    font-size: 18px;
+    font-weight: 700;
+    user-select: none;
+}
+.container-contato{
+    position: relative;
+}
 .container-contato label {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
     color: #f3eaea;
+    position: absolute;
+    line-height: 60px;
+    top: -10px;
+    left: 10px;
+    user-select: none;
     transition: 0.5s;
-    display: flex;
-    margin-right: 260px;
-    margin-bottom: 20px;
+
 }
 
 .container-contato input {
-    height: 50px;
+    height: 60px;
     border: none;
     background-color: hwb(205deg 74% 24% / 76%);
     border-radius: 4px;
-    color: #09151f;
+    color: #2f7dc2;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     padding: 14px 11px 0px 10px;
     user-select: none;
-    pointer-events: none;
-    position: absolute;
+    margin-right: 115px;
 }
 
 .container-contato input:focus ~ label,
@@ -764,32 +729,51 @@ circle:nth-child(2) {
     margin: auto 0;
 }
 #check label {
-    margin: auto 10px;
+    margin-bottom: 10px;
     color: #555;
-
-}
-#check input :checked ~ label,
-#check input :valid ~ label {
-    color: #2f7dc2;
+    transition: 0.5s;
 }
 
 fieldset {
     border: none;
-
 }
 
-fieldset:nth-child(1) {
+.fieldset-1 {
     display: flex;
+    margin-top: 17px;
 }
 
-/* fieldset:nth-child(2) {}
+.fieldset-2 {
+    display: flex;
+    padding-top: 20px;
 
-fieldset:nth-child(3) {}
+}
 
-fieldset:nth-child(4) {}
-
-fieldset:nth-child(5) {
-    margin-top: 24px;
+.fieldset-4 {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
     padding: 0 10px;
+}
 
-} */
+.fieldset-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button-contato {
+    margin: 5px 0;
+    margin-left: 10px;
+    width: calc(50% - 10px);
+    height: 46px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #00abd6;
+    border: none;
+    cursor: pointer;
+
+}
+
