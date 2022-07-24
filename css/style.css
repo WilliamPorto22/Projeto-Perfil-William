@@ -616,7 +616,8 @@ circle:nth-child(2) {
     font-size: 20px;
     color: #031f32;
     background-color: #9ea9b1;
-    padding: 10px 8px;
+    padding: 10px 0px;
+    width: 100vw;
     margin-bottom: 0px;
     margin-top: 0px;
     display: flex;
