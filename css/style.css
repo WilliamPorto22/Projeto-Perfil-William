@@ -1,3 +1,5 @@
+
+
 body {
     display: flex;
     margin: 0;
@@ -258,6 +260,7 @@ h5 {
         transform: translate3d(0, 0, 0);
     }
 }
+
 span {
     margin: 10px auto;
 }
@@ -615,10 +618,7 @@ circle:nth-child(2) {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     color: #031f32;
-    background-color: #9ea9b1;
-    padding: 10px 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 13px;
     display: flex;
     justify-content: center;
 }
@@ -731,6 +731,7 @@ circle:nth-child(2) {
     top: -10px;
     color: #2f7dc2;
 }
+
 #check {
     width: 50%;
     text-transform: uppercase;
@@ -788,14 +789,15 @@ fieldset {
     cursor: pointer;
 
 }
-.fundo{
+
+.fundo {
     background-color: #00abd6;
     margin-top: 59px;
     width: 817px;
     height: 555px;
     border-radius: 10px;
     box-shadow: 3px 6px 10px;
-    transform: skew(6deg, 2deg );
+    transform: skew(6deg, 2deg);
     position: absolute;
     z-index: 0;
 }
