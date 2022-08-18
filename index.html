@@ -5,15 +5,16 @@
     <title>William Porto</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="imag/icon-re.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imag/icon-re.png">
+    <link rel="stylesheet" href="/style.css">
+
 </head>
 
 <body>
-    <section class="section-nav">
+    <section>
         <nav>
-            <div  id="nave" class="container">
+            <div id="nave" class="container-nav">
                 <div class="nome-ini-w">
                     <a href="#nave"> William Porto</a>
                 </div>
@@ -32,11 +33,11 @@
                 </div>
             </div>
         </nav>
-        <a href="https://api.whatsapp.com/send?phone=5551981310494"
-            style="height: 70px; position: fixed; bottom: 10px;  right: 9px;color: #FFF; border-radius: 19px; text-align: center; font-size: 5px;"
-            target="_blank">
-            <img style="margin-top: 1px; height: 70px;" src="imag/whats.png"></img>
-        </a>
+        <div class="whats">
+            <a href="https://api.whatsapp.com/send?phone=5551981310494" target="_blank">
+                <img class="img-whats" src="imag/whats.png"></img>
+            </a>
+        </div>
     </section>
 
     <section id="inicio" class="inicio-fundo">
@@ -52,7 +53,7 @@
     <section id="sobre">
         <h2>Sobre</h2>
         <div class="title-border"></div>
-        <div class="section">
+        <div class="section-sobre">
             <p class="section2">Formado Gestâo Comercial e estudante de desenvolvimento, possuo certificados em HTML,
                 CCS, Javascript, E-commerce, Power-BI, Bootstrap, Versionamento GIT, entre outros. Atualmente,
                 sigo estudando o uso de tecnologias como, React, Node. Procuro sempre aprender algo novo e acompanhar o
@@ -79,11 +80,11 @@
         </div>
     </section>
 
-    <section id="skills" class="section-skills">
-        <div>
+    <section id="skills">
+
+        <div class="section-skills">
             <h3>skills</h3>
             <div class="title-border"></div>
-
             <div class="col">
 
                 <div class="col-sm-1">
@@ -107,64 +108,45 @@
                     </div>
                 </div>
 
-                <div class="col-sm-1">
-                    <div class="skill">
-                        <h4>REACT</h4>
-                        <div class="title-border-2"></div>
+            </div>
+            <div class="div-flex">
+                <div class="grafico">
+                    <div class="grafico-circulo">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"> </circle>
+                            <circle cx="70" cy="70" r="70"> </circle>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="grafico2">
+                    <div class="grafico-circulo">
+                        <svg>
+                            <circle class="circle2" cx="70" cy="70" r="70"> </circle>
+                            <circle class="circle2" cx="70" cy="70" r="70"> </circle>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="grafico3">
+                    <div class="grafico-circulo">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"> </circle>
+                            <circle cx="70" cy="70" r="70"> </circle>
+                        </svg>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="div-flex">
-            <div class="grafico">
-                <div class="grafico-circulo">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"> </circle>
-                        <circle cx="70" cy="70" r="70"> </circle>
-                    </svg>
+            <div >
+                <div class="div-flex1">
+                    <h6>90%</h6>
                 </div>
-            </div>
-
-            <div class="grafico">
-                <div class="grafico-circulo">
-                    <svg>
-                        <circle class="circle2" cx="70" cy="70" r="70"> </circle>
-                        <circle class="circle2" cx="70" cy="70" r="70"> </circle>
-                    </svg>
+                <div class="div-flex2">
+                    <h6>30%</h6>
                 </div>
-            </div>
-
-            <div class="grafico">
-                <div class="grafico-circulo">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"> </circle>
-                        <circle cx="70" cy="70" r="70"> </circle>
-                    </svg>
+                <div class="div-flex3">
+                    <h6>90%</h6>
                 </div>
-            </div>
-
-            <div class="grafico">
-                <div class="grafico-circulo">
-                    <svg>
-                        <circle class="circle2" cx="70" cy="70" r="70"> </circle>
-                        <circle class="circle2" cx="70" cy="70" r="70"> </circle>
-                    </svg>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h6 class="numero-por-90">90%</h6>
-            </div>
-            <div>
-                <h6 class="numero-por-30">30%</h6>
-            </div>
-            <div>
-                <h6 class="numero-por-91">90%</h6>
-            </div>
-            <div>
-                <h6 class="numero-por-31">30%</h6>
             </div>
         </div>
     </section>
@@ -299,17 +281,17 @@
             </fieldset>
 
             <fieldset class="fieldset-5 ">
-                <div  id="check">
-                    <input  type="checkbox" required name="accept" id="accept" autofocus>
+                <div id="check">
+                    <input type="checkbox" required name="accept" id="accept" autofocus>
                     <label for="accept">Aceitar os termos de uso</label>
                 </div>
-                    
+
                 <button class="bt-experiencia">Enviar</button>
             </fieldset>
         </form>
     </section>
 
-    <p class="end" ><a href="#nave">© Desenvolvido por William Porto </a></p>
+    <p class="end"><a href="#nave">© Desenvolvido por William Porto </a></p>
 
     <script src="modal.js"> </script>
 </body>
