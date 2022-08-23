@@ -163,12 +163,10 @@ p {
     flex-direction: column;
     justify-content: center;
     margin-top: 6%;
-    margin-left: 71%;
+    margin-left: 58%;
     background-color: rgb(54 77 92);
     border-radius: 6px;
     padding: 35px;
-    width: 37vw;
-    height: 69vh;
 }
 
 .modal3 {
@@ -176,12 +174,10 @@ p {
     flex-direction: column;
     justify-content: center;
     margin-top: 6%;
-    margin-left: 5%;
-    background-color: rgb(54 77 92);
+    margin-left: 3%;
+    background-color: rgb(54, 77, 92);
     border-radius: 6px;
     padding: 35px;
-    width: 37vw;
-    height: 69vh;
 }
 
 .modal4 {
@@ -189,12 +185,10 @@ p {
     flex-direction: column;
     justify-content: center;
     margin-top: 6%;
-    margin-left: -62%;
-    background-color: rgb(54 77 92);
+    margin-left: -46%;
+    background-color: rgb(54, 77, 92);
     border-radius: 6px;
     padding: 35px;
-    width: 37vw;
-    height: 69vh;
 }
 
 .active {
