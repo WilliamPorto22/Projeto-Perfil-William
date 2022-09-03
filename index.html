@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imag/icon-re.png">
-    <link rel="stylesheet" href="/style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -34,7 +33,7 @@
             </div>
         </nav>
         <div class="whats">
-            <a href="https://api.whatsapp.com/send?phone=5551981310494" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=5551990195441" target="_blank">
                 <img class="img-whats" src="imag/whats.png"></img>
             </a>
         </div>
@@ -61,14 +60,14 @@
                 Nas horas vagas, estudo ingles e passeio com minha familia.
             </p>
             <div>
-                <img src="imag/w.png" class="img-responsive img-thumbnail img-perfil">
+                <img src="imag/w.png " class="img-responsive img-thumbnail img-perfil">
             </div>
             <button class="bt-experiencia margen-top" onclick="openModal()">Experiencia</button>
             <div class="modal-container">
                 <div class="modal">
                     <h3>Experiencia</h3>
                     <hr />
-                    <img style="margin-top: 1px; height: 390px;" src="imag/Jti Will.png"></img>
+                    <img style="margin-top: 1px; height: 400px;" src="imag/DiplomaEcom.png"></img>
                     <hr />
                     <div class="btns">
                         <button class="btnOk" onclick="closeModal()">OK</button>
@@ -173,7 +172,7 @@
                         <div class="modal2">
                             <h3>Certifidado</h3>
                             <hr />
-                            <img style="margin-top: 1px; height: 460px;" src="/imag/DiplomaUninter.png"></img>
+                            <img style="margin-top: 1px; height: 400px;" src="imag/DiplomaUninter.png"></img>
                             <hr />
                             <div class="btns">
                                 <button class="btnOk" onclick="closeModal2()">OK</button>
@@ -200,7 +199,7 @@
                         <div class="modal3">
                             <h3>Certifidado</h3>
                             <hr />
-                            <img style="margin-top: 1px; height: 390px;" src="/imag/Brf.png"></img>
+                            <img style="margin-top: 1px; height: 400px;" src="imag/DiplomaEcom.png"></img>
                             <hr />
                             <div class="btns">
                                 <button class="btnOk" onclick="closeModal3()">OK</button>
@@ -229,7 +228,7 @@
                         <div class="modal4">
                             <h3>Certifidado</h3>
                             <hr />
-                            <img style="margin-top: 1px; height: 480px;" src="/imag/Diploma Power.png"></img>
+                            <img style="margin-top: 1px; height: 400px;" src="imag/Diploma Power.png"></img>
                             <hr />
                             <div class="btns">
                                 <button class="btnOk" onclick="closeModal4()">OK</button>
@@ -248,45 +247,50 @@
             <div class="title-border"></div>
         </div>
         <div class="fundo"></div>
-        <form class="container-div-conta" action="#" method="post">
+        <form class="container-div-conta" action="https:formsubmit.co/williamporto0@gmail.com" method="post">
 
-            <fieldset class="fieldset-1">
-                <div class="container-contato">
-                    <label for="name"> Nome :</label>
-                    <input type="text" required name="name" id="name" autofocus>
-                </div>
-                <div class="container-contato">
-                    <label for="sobrenome"> Sobrenome :</label>
-                    <input type="text" required name="sobrenome" id="sobrenome" autofocus>
-                </div>
-            </fieldset>
-
-            <fieldset class="fieldset-2">
-                <div class="container-contato">
-                    <label for="email">E-mail :</label>
-                    <input type="email" required name="email" id="email" autofocus>
-                </div>
-
-                <div class="container-contato">
-                    <label for="number">Fone :</label>
-                    <input type="number" required name="number" id="number" autofocus>
-                </div>
-            </fieldset>
-
-            <fieldset class="fieldset-4">
-                <div class="container-contato2">
-                    <label for="mensagem">Escreva :</label>
-                    <input type="text" required name="mensagem" id="mensagem" autofocus>
-                </div>
-            </fieldset>
-
-            <fieldset class="fieldset-5 ">
-                <div id="check">
-                    <input type="checkbox" required name="accept" id="accept" autofocus>
-                </div>
-
-                <button class="bt-visualizar">Enviar</button>
-            </fieldset>
+                <fieldset class="fieldset-1">
+                    <div class="container-contato">
+                        <label > Nome :</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="container-contato">
+                        <label> Sobrenome :</label>
+                        <input type="text" required>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="fieldset-2">
+                    <div class="container-contato">
+                        <label> Seu E-mail :</label>    
+                        <input type="text" required>
+                    </div>
+    
+                    <div class="container-contato">
+                        <label > Seu Telefone :</label>  
+                        <input type="number" required>
+    
+                    </div>
+                </fieldset>
+    
+                <fieldset class="fieldset-4">
+                    <div class="container-contato2">
+                        <label> Escreva seu recado:</label> 
+                        <input type="text" required>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="fieldset-5 ">
+                    <div >
+                        <input type="checkbox" required>
+                    </div>
+    
+                    <button type="submit" class="bt-visualizar">Enviar</button>
+                </fieldset>
+                
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
         </form>
     </section>
 
