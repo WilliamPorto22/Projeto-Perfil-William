@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imag/icon-re.png">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -49,9 +50,9 @@
         </div>
     </section>
 
-    <section id="sobre">
+    <section class="section-sobre2" id="sobre">
         <h2>Sobre</h2>
-        <div class="title-border"></div>
+        <div class="title-border3"></div>
         <div class="section-sobre">
             <p class="section2">Formado Gestâo Comercial e estudante de desenvolvimento, possuo certificados em HTML,
                 CCS, Javascript, E-commerce, Power-BI, Bootstrap, Versionamento GIT, entre outros. Atualmente,
@@ -62,18 +63,17 @@
             <div>
                 <img src="imag/w.png " class="img-responsive img-thumbnail img-perfil">
             </div>
-            <button class="bt-experiencia margen-top" onclick="openModal()">Experiencia</button>
-            <div class="modal-container">
-                <div class="modal">
-                    <h3>Experiencia</h3>
-                    <hr />
-                    <img style="margin-top: 1px; height: 400px;" src="imag/DiplomaEcom.png"></img>
-                    <hr />
-                    <div class="btns">
-                        <button class="btnOk" onclick="closeModal()">OK</button>
-                        <button class="btnClose" onclick="closeModal()">Close</button>
-                    </div>
-
+        </div>
+        <button class="bt-experiencia" onclick="openModal()">Experiencia</button>
+        <div class="modal-container">
+            <div class="modal">
+                <h3>Experiencia</h3>
+                <hr />
+                <img style="margin-top: 1px; height: 400px;" src="imag/DiplomaEcom.png"></img>
+                <hr />
+                <div class="btns">
+                    <button class="btnOk" onclick="closeModal()">OK</button>
+                    <button class="btnClose" onclick="closeModal()">Close</button>
                 </div>
             </div>
         </div>
@@ -91,12 +91,39 @@
                         <h4>HTML</h4>
                         <div class="title-border-2"></div>
                     </div>
+
+                    <div class="grafico">
+                        <div class="grafico-circulo">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"> </circle>
+                                <circle cx="70" cy="70" r="70"> </circle>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="div-flex1">
+                        <h6>100%</h6>
+                    </div>
+
                 </div>
 
                 <div class="col-sm-1">
                     <div class="skill col-sm-java">
                         <h4>JAVASCRIPT</h4>
                         <div class="title-border-2"></div>
+                    </div>
+
+                    <div class="grafico2">
+                        <div class="grafico-circulo">
+                            <svg>
+                                <circle class="circle2" cx="70" cy="70" r="70"> </circle>
+                                <circle class="circle2" cx="70" cy="70" r="70"> </circle>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="div-flex2">
+                        <h6>40%</h6>
                     </div>
                 </div>
 
@@ -105,48 +132,24 @@
                         <h4>CSS</h4>
                         <div class="title-border-2"></div>
                     </div>
-                </div>
 
-            </div>
-            <div class="div-flex">
-                <div class="grafico">
-                    <div class="grafico-circulo">
-                        <svg>
-                            <circle cx="70" cy="70" r="70"> </circle>
-                            <circle cx="70" cy="70" r="70"> </circle>
-                        </svg>
+                    <div class="grafico3">
+                        <div class="grafico-circulo">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"> </circle>
+                                <circle cx="70" cy="70" r="70"> </circle>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="div-flex3">
+                        <h6>100%</h6>
                     </div>
                 </div>
 
-                <div class="grafico2">
-                    <div class="grafico-circulo">
-                        <svg>
-                            <circle class="circle2" cx="70" cy="70" r="70"> </circle>
-                            <circle class="circle2" cx="70" cy="70" r="70"> </circle>
-                        </svg>
-                    </div>
-                </div>
+            </div>
 
-                <div class="grafico3">
-                    <div class="grafico-circulo">
-                        <svg>
-                            <circle cx="70" cy="70" r="70"> </circle>
-                            <circle cx="70" cy="70" r="70"> </circle>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <div >
-                <div class="div-flex1">
-                    <h6>100%</h6>
-                </div>
-                <div class="div-flex2">
-                    <h6>40%</h6>
-                </div>
-                <div class="div-flex3">
-                    <h6>100%</h6>
-                </div>
-            </div>
+        </div>
         </div>
     </section>
 
@@ -154,7 +157,7 @@
     <section id="formacao">
         <div>
             <h2>Formação</h2>
-            <div class="title-border"></div>
+            <div class="title-border3"></div>
         </div>
         <div class="section-for">
             <div class="card-for">
@@ -241,56 +244,37 @@
         </div>
     </section>
 
-    <section id="contato" class="section-mensagem">
-        <div>
-            <h3>Contato</h3>
-            <div class="title-border"></div>
-        </div>
-        <div class="fundo"></div>
-        <form class="container-div-conta" action="https:formsubmit.co/williamporto0@gmail.com" method="post">
+    <section class="section-alinhamento" id="CONTATO">
 
-                <fieldset class="fieldset-1">
-                    <div class="container-contato">
-                        <label > Nome :</label>
-                        <input type="text" required>
-                    </div>
-                    <div class="container-contato">
-                        <label> Sobrenome :</label>
-                        <input type="text" required>
-                    </div>
-                </fieldset>
-    
-                <fieldset class="fieldset-2">
-                    <div class="container-contato">
-                        <label> Seu E-mail :</label>    
-                        <input type="text" required>
-                    </div>
-    
-                    <div class="container-contato">
-                        <label > Seu Telefone :</label>  
-                        <input type="number" required>
-    
-                    </div>
-                </fieldset>
-    
-                <fieldset class="fieldset-4">
-                    <div class="container-contato2">
-                        <label> Escreva seu recado:</label> 
-                        <input type="text" required>
-                    </div>
-                </fieldset>
-    
-                <fieldset class="fieldset-5 ">
-                    <div >
-                        <input type="checkbox" required>
-                    </div>
-    
-                    <button type="submit" class="bt-visualizar">Enviar</button>
-                </fieldset>
-                
-                <input type="hidden" name="_subject" value="Novo Contato!">
-                <input type="text" name="_honey" style="display:none">
-                <input type="hidden" name="_captcha" value="false">
+        <h3>CONTATO</h3>
+        <div class="title-border3"></div>
+        <h2 class="h22"> Se possivel me conte um pouco sobre sua experiencia no site</h2>
+
+        <div class="fundo"></div>
+        <form class="form" action="">
+
+            <div class="div-inputs">
+
+                <input class="input-form" type="text" placeholder="Nome:">
+
+                <input class="input-form" type="text" placeholder="Sobrenome:">
+
+            </div>
+
+            <div class="div-inputs">
+
+                <input class="input-form" type="number" placeholder="Telefone:">
+
+                <input class="input-form" type="text" placeholder="Email:">
+
+            </div>
+
+            <div class="div-inputs">
+                <textarea class="input-form-recado" name="" id="" cols="30" rows="10"
+                    placeholder="Escreva seu reacado:"></textarea>
+            </div>
+
+            <button onclick="fabricando()" class="btn-form">Enviar</button>
         </form>
     </section>
 
